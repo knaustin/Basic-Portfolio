@@ -1,0 +1,126 @@
+body {
+    background-image: url(../images/full-bloom.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    display: inline-block;
+    padding: 13px;
+    background-color: #4AAAA5;
+    position: absolute;
+    left: 8%;
+    top: 0px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 60px;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: #cccccc 3px solid;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #cccccc;
+}
+
+.aboutme {
+    display: block;
+    width: 960px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    line-height: 2.0;
+    color: #777777;
+}
+
+.aboutme img {
+    float: left;
+    padding: 10px;
+}
+
+h2 {
+    color: #4AAAA5;
+    border-bottom: #dddddd solid 3px;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 15px 15px 0px;
+}
+
+.copyright {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #666666;
+    color: #cccccc;
+    text-align: center;
+    padding: 40px 0px 5px 40px;
+    border-top: #4AAAA5 5px solid;
+    margin-top: 50px;
+    font-size: 10px;
+}
+
+.contact {
+    display: block;
+    width: 960px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    line-height: 2.0;
+    color: #777777;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4AAAA5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.portfolio {
+    display: block;
+    width: 960px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    line-height: 2.0;
+    color: #777777;
+    height: 1000px;
+}
+
+.portfolio img {
+    float: left;
+    padding: 10px;
+}
