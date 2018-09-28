@@ -15,6 +15,7 @@ h1 {
     padding: 13px;
     background-color: #4AAAA5;
     margin: 0;
+    float: left;
 }
 
 .navigation {
@@ -45,10 +46,6 @@ li a{
     padding: auto;
     text-decoration: none;
     margin-right: 20px;
-}
-
-h1 {
-    float: left;
 }
 
 li a:hover {
@@ -132,8 +129,19 @@ input[type=submit] {
     height: 1000px;
 }
 
-.portfolio img {
+.container {
+    position: relative;
     float: left;
     margin: 10px;
-    border: 1px solid #dddddd;
+}
+
+.text-block {
+    position: absolute;
+    display: inline-block;
+    width: 350px;
+    background-color: #4AAAA5;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    top: 150px;
+    text-align: center;
 }
