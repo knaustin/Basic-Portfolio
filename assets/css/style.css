@@ -1,6 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(../images/full-bloom.png);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -9,40 +14,46 @@ h1 {
     display: inline-block;
     padding: 13px;
     background-color: #4AAAA5;
-    position: absolute;
-    left: 8%;
-    top: 0px;
     margin: 0;
 }
 
-ul {
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 60px;
-    margin-right: 0;
-    margin-left: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
+.navigation {
     border-bottom: #cccccc 3px solid;
 }
 
-li {
-    float: right;
+.navigation, .sub-wrapper {
+    overflow: auto;
+    background: white;
+    margin-bottom: 40px;
 }
 
-li a {
+.sub-wrapper {
+    margin: auto;
+    width: 960px;
+}
+
+ul, li{
+    float: right;
+    list-style-type: none;
+}
+
+li a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: block;
     color: #777777;
     text-align: center;
-    padding: 20px 20px;
+    padding: auto;
     text-decoration: none;
+    margin-right: 20px;
+}
+
+h1 {
+    float: left;
 }
 
 li a:hover {
     background-color: #cccccc;
-}
+} 
 
 .aboutme {
     display: block;
@@ -51,13 +62,14 @@ li a:hover {
     margin: auto;
     padding: 20px;
     border: 1px solid #dddddd;
-    line-height: 2.0;
+    line-height: 1.5;
     color: #777777;
 }
 
 .aboutme img {
     float: left;
-    padding: 10px;
+    margin: 5px;
+    border: 1px solid #dddddd;
 }
 
 h2 {
@@ -86,7 +98,7 @@ h2 {
     margin: auto;
     padding: 20px;
     border: 1px solid #dddddd;
-    line-height: 2.0;
+    line-height: 1.5;
     color: #777777;
 }
 
@@ -115,12 +127,13 @@ input[type=submit] {
     margin: auto;
     padding: 20px;
     border: 1px solid #dddddd;
-    line-height: 2.0;
+    line-height: 1.5;
     color: #777777;
     height: 1000px;
 }
 
 .portfolio img {
     float: left;
-    padding: 10px;
+    margin: 10px;
+    border: 1px solid #dddddd;
 }
